@@ -1,6 +1,6 @@
 import { useState } from "react";
 import clsx from "clsx";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Link from "next/link";
 
 export default function Home() {
