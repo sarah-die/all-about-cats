@@ -1,15 +1,14 @@
 @import "./src/styles/global-vars";
 
 .square-slider {
-  //background-color: lightcyan;
 
   .title {
-    //color: $yellow;
+    color: $my-blue;
     //font-family: $sans-serif;
   }
 
   .subtitle {
-    //color: $white;
+    color: white;
     //font-family: $sans-serif;
     text-transform: none;
     font-weight: 400;
@@ -35,7 +34,7 @@
     bottom: 0;
     background: rgba(19, 38, 52, 0.5);
     width: 100%;
-    //color: $white;
+    color: white;
     padding: 22px 0;
   }
 
@@ -47,7 +46,7 @@
   }
 
   .yellow-bullet {
-    //background-color: $yellow;
+    background-color: $my-blue;
   }
 }
 
