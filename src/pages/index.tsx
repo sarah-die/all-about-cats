@@ -8,9 +8,10 @@ export default function Home() {
 
   return (
     <Layout home>
-      <main>
+      <main id="home">
         <section className="section">
           <div className="container">
+            {/*ab hier sollten nur die einzelnen komponenten <Mykomponente /> stehen ToDo*/}
             <h1 className="title">Hello World</h1>
             <p className="subtitle">
               My first website 2 with <strong>Bulma</strong>!
