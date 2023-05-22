@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import image from "../../public/20221017_1545062.jpg"
+import image from "../../public/20221017_1545062.jpg";
 
 /** responsible navbar that changes appearance depending on the window size */
 
@@ -11,21 +11,12 @@ export const NavBar = () => {
   return (
     // set is-white to change appearance of links and texts
     <nav
-      className="navbar has-shadow is-white"
+      className="navbar has-shadow is-primary"
       role="navigation"
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a
-          className="navbar-item"
-          href="https://de.wikipedia.org/wiki/Katzen"
-        >
-          {/*<img*/}
-          {/*  src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"*/}
-          {/*  // override the bulma default: better with scss-class*/}
-          {/*  // style={{maxHeight: 50}}*/}
-          {/*  alt={"picture of a cat"}*/}
-          {/*/>*/}
+        <a className="navbar-item" href="https://de.wikipedia.org/wiki/Katzen">
           <Image src={image} alt={"Picture of a cat"} width="30"></Image>
         </a>
 
