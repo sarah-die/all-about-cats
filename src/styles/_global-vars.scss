@@ -1,1 +1,34 @@
 // new global colors etc. can be added here
+// don´t put CSS here
+// ToDo
+//@import "../node_modules/bulma/sass/utilities/initial-variables";
+//@import "../node_modules/bulma/sass/utilities/functions";
+
+$orange: #ff8606;
+$orange-invert: findColorInvert($orange);
+$my-background: #f8e9d8;
+$my-background-invert: findColorInvert($my-background);
+$my-red: #800c23;
+$my-red-invert: findColorInvert($my-red);
+
+$secondary: #f8e9d8;
+$secondary-invert: findColorInvert(#f8e9d8);
+$secondary-light: findLightColor(#f8e9d8);
+$secondary-dark: findDarkColor(#f8e9d8);
+
+// this adds the is-orange class
+$custom-colors: (
+  "orange": (
+    $orange,
+    $orange-invert,
+  ),
+  "secondary": (
+    $secondary,
+    $secondary-invert,
+    $secondary-light,
+    $secondary-dark,
+  ),
+);
+
+// change the primary color
+//$primary: blue;

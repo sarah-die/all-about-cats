@@ -1,17 +1,25 @@
-@import "./src/styles/global-vars";
+//@import "./src/styles/global-vars";
+// background-color: $my-background;
+@use "./src/styles/global-vars" as var;
 
 .layout {
-  .container {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
+  .mainLayoutContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var.$my-background;
   }
 
   //.header {
-  // optional header styling
+  // optional header stylings
+  //  display: flow;
+  //  flex-direction: column;
+  //  align-items: center;
   //}
 
   .backToHome {
     margin: 3rem 0 0;
+    background-color: var.$my-red;
   }
 }
