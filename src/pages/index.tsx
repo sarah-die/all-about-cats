@@ -2,12 +2,16 @@ import { useState } from "react";
 import clsx from "clsx";
 import Layout from "../components/Layout";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const [buttonSize, setButtonSize] = useState<boolean>(true);
 
   return (
     <Layout home>
+      <Head>
+        <title>All About Cats</title>
+      </Head>
       <main id="home">
         <section className="section">
           <div className="container">
