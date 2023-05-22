@@ -1,0 +1,52 @@
+@import "./src/styles/global-vars";
+
+.square-slider {
+  background-color: $my-background;
+
+  .title {
+    //color: $yellow;
+    //font-family: $sans-serif;
+  }
+
+  .subtitle {
+    //color: $white;
+    //font-family: $sans-serif;
+    text-transform: none;
+    font-weight: 400;
+  }
+
+  .section {
+    padding: 24px 48px;
+  }
+
+  .swiper {
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 20px;
+  }
+
+  .is-text-over-picture {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    background: rgba(19, 38, 52, 0.5);
+    width: 100%;
+    //color: $white;
+    padding: 22px 0;
+  }
+
+  .img-style {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .yellow-bullet {
+    //background-color: $yellow;
+  }
+}
