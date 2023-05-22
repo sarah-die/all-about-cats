@@ -53,17 +53,17 @@ export const NavBar = () => {
           <a className="navbar-item" href={"/"}>
             Home
           </a>
-          <a className="navbar-item" href={"/story"}>
-            Geschichte
+          <a className="navbar-item" href={"/facts"}>
+            Über Atlas und Maple
           </a>
-          <a className="navbar-item" href={"/superpower"}>
-            Superkräfte
+          <a className="navbar-item" href={"/funfacts"}>
+            Funfacts über Katzen
           </a>
-          <a className="navbar-item" href={"/trivia"}>
-            Trivia
+          <a className="navbar-item" href={"/knowledge"}>
+            Trivia/ Wissenswertes
           </a>
           <a className="navbar-item" href={"/pictures"}>
-            Bilder
+            Galerie
           </a>
         </div>
       </div>
