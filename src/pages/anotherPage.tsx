@@ -1,18 +1,17 @@
 import Layout from "../components/Layout";
 import Head from "next/head";
+import { MainPageParallax } from "@/components/Parallax/MainPageParallax";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function AnotherPage() {
   return (
-    <Layout>
-      <Head>
-        <title>Another Page</title>
-      </Head>
-      <section className="section">
-        <div className="container">
-          <h1 className="title">Hello!</h1>
-          <h1>Welcome to another page</h1>
-        </div>
-      </section>
-    </Layout>
+    <ParallaxProvider>
+      <Layout>
+        <Head>
+          <title>Another Page</title>
+        </Head>
+        <MainPageParallax />
+      </Layout>
+    </ParallaxProvider>
   );
 }
