@@ -1,3 +1,40 @@
 @import "./src/styles/global-vars";
 
-// hier werden Klassen für die main-page definiert
+// classes from html can be overridden here / global classes can be edited
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  * {
+    outline: none;
+  }
+}
+
+main {
+  margin: 0 auto 0 0;
+}
+
+// Section Class
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 1.5rem;
+  @include tablet {
+    padding: 6rem clamp(6rem, 8.333333%, 8.333333%);
+  }
+  @include desktop {
+    padding: 6rem clamp(8rem, 8.333333%, 8.333333%);
+  }
+}

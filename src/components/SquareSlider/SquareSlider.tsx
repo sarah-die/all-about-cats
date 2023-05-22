@@ -2,17 +2,17 @@
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SquareSliderElement } from "./SquareSliderElement";
+import image from "../../../public/20230103_155348.jpg";
 
 /** Component that renders SquareSliderElements depending on a data-array in a slider.
  * The slider has autoplay and pagination. */
 
 const data = new Array(9).fill({
-  image: { url: "/../../public/20230103_155348.jpg" },
+  image: { url: image },
   title: "test title",
-  subtitle: "testTitle",
+  subtitle:
+    "testTitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere ipsa minima quam ut vitae!",
 });
-
-const test = new Array(6).fill("");
 
 export const SquareSlider = () =>
   // { data }
@@ -27,7 +27,7 @@ export const SquareSlider = () =>
               bulletClass: "swiper-pagination-bullet yellow-bullet",
             }}
             slidesPerView={1}
-            spaceBetween={10}
+            spaceBetween={40}
             // using Bulma breakpoints
             // https://bulma.io/documentation/overview/responsiveness/
             breakpoints={{
@@ -49,31 +49,14 @@ export const SquareSlider = () =>
               disableOnInteraction: false,
             }}
           >
-            {/*{data.map((el, index) => {*/}
-            {/*  return (*/}
-            {/*    <SwiperSlide className="swiper-wrapper" key={index}>*/}
-            {/*      <SquareSliderElement*/}
-            {/*        url={el.image.url}*/}
-            {/*        title={el.title}*/}
-            {/*        subtitle={el.subtitle}*/}
-            {/*      />*/}
-            {/*    </SwiperSlide>*/}
-            {/*  );*/}
-            {/*})}*/}
-            {test.map((_, index) => {
+            {data.map((el, index) => {
               return (
-                <SwiperSlide>
-                  <div
-                    key={index}
-                    style={{
-                      backgroundColor: "blue",
-                      width: 400,
-                      height: 400,
-                      border: "solid",
-                      borderColor: "green",
-                      borderWidth: 2,
-                    }}
-                  ></div>
+                <SwiperSlide className="swiper-wrapper" key={index}>
+                  <SquareSliderElement
+                    url={el.image.url}
+                    title={el.title}
+                    subtitle={el.subtitle}
+                  />
                 </SwiperSlide>
               );
             })}

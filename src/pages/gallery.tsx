@@ -8,11 +8,7 @@ export default function Gallery() {
       <Head>
         <title>Gallerie</title>
       </Head>
-      <section className="section">
-        <div className="container">
           <SquareSlider />
-        </div>
-      </section>
     </Layout>
   );
 }

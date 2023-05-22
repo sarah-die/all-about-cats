@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useState } from "react";
 import clsx from "clsx";
 
@@ -21,9 +21,6 @@ export const SquareSliderElement = ({ url, title, subtitle }) => {
           alt="title"
           width="400"
           height="400"
-          // layout raw is necessary to remove the wrapper spans from next/image
-          // to give next/image position=absolute in next.js version 12
-          layout="fill"
           // ToDo optional: loading spinner (e.g) when slow connection
         />
         <div className="has-text-left is-text-over-picture">
