@@ -1,7 +1,9 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 const image1 =
-  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+  "https://upload.wikimedia.org/wikipedia/commons/e/e6/Forested_hills_in_Lysekil_in_fog_-_B%26W.jpg";
+// ToDo change speed depending on breakpoint
+const speed = 15;
 
 export const MainPageParallax = () => {
   return (
@@ -9,9 +11,9 @@ export const MainPageParallax = () => {
       <div className="parallax">
         <ParallaxBanner
           layers={[
-            { image: image1, speed: 15 },
+            { image: image1, speed: speed },
             {
-              speed: -15,
+              speed: -5,
               children: (
                 <div className="title-position-over-picture">
                   <div className="title-over-picture">Hello World!</div>
@@ -39,7 +41,7 @@ export const MainPageParallax = () => {
           layers={[
             { image: image1, speed: 15 },
             {
-              speed: -15,
+              speed: -10,
               children: (
                 <div className="title-position-over-picture">
                   <div className="title-over-picture">Hello World!</div>

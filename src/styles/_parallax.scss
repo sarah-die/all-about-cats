@@ -19,7 +19,13 @@
   }
 
   .title-over-picture {
-    font-size: 100px;
+    font-size: 150px;
     color: var.$my-orange;
+    @include tablet {
+      font-size: 100px;
+    }
+    @include mobile {
+      font-size: 50px;
+    }
   }
 }
