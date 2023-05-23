@@ -1,7 +1,7 @@
 @use "./src/styles/global-vars" as var;
 
 .effect-flip-card {
-  margin-bottom: 30px;
+  margin: 0 5px 30px 5px;
 
   .swiper {
     width: 300px;

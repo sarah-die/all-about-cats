@@ -18,7 +18,7 @@ export default function Funfacts() {
         Turn the cards/ pictures around for some fun facts
       </section>
       <div className="container">
-        <div className="columns is-multiline is-gapless">
+        <div className="columns is-multiline is-gapless is-vcentered is-mobile">
           {funfactsData.map((el, index) => {
             return (
               <div className="column" key={index}>
