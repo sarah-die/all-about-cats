@@ -23,7 +23,7 @@ export const MainPageParallax = () => {
           ]}
           className="banner-height"
         ></ParallaxBanner>
-        <section className="section">
+        <section className="text-container">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           inventore repudiandae. Consectetur dicta earum minima quaerat unde ut
           voluptatibus. Alias autem consectetur deleniti hic laudantium optio
@@ -51,7 +51,7 @@ export const MainPageParallax = () => {
           ]}
           className="banner-height"
         ></ParallaxBanner>
-        <section className="section">
+        <section className="text-container">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           inventore repudiandae. Consectetur dicta earum minima quaerat unde ut
           voluptatibus. Alias autem consectetur deleniti hic laudantium optio
