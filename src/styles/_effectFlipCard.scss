@@ -1,6 +1,8 @@
 @use "./src/styles/global-vars" as var;
 
 .effect-flip-card {
+  margin-bottom: 30px;
+
   .swiper {
     width: 300px;
     @include mobile {
