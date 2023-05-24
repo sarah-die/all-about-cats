@@ -1,13 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import { IntroductionElement } from "@/components/IntroductionElement/IntroductionElement";
-import image from "../../public/20230103_155348.jpg";
-
-const testData = new Array(6).fill({
-  url: image,
-  title: "test title is much longer",
-  subtitle: "this is some text blablabla and even more text",
-});
+import {introductionData} from "../../pageData/introductionData";
 
 export default function Introduction() {
   return (
@@ -31,7 +25,7 @@ export default function Introduction() {
       </div>
       <div className="non-text-container">
         <div className="columns is-multiline is-gapless is-centered is-vcentered is-mobile">
-          {testData.map((el, index) => {
+          {introductionData.map((el, index) => {
             return (
               <div className="column is-narrow" key={index}>
                 <IntroductionElement

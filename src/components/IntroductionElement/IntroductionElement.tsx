@@ -16,7 +16,9 @@ export const IntroductionElement = (props: {
       </figure>
       <hgroup className="has-text-centered">
         <h2 className="introduction-title">{props.title}</h2>
-        <span className="subtitle is-6">{props.subtitle}</span>
+        <div className="subtitle-div">
+          <span className="subtitle is-6">{props.subtitle}</span>
+        </div>
       </hgroup>
     </div>
   );

@@ -1,8 +1,9 @@
 @use "./src/styles/global-vars" as var;
 
 .introduction-element {
-  width: 200px;
+  width: 250px;
   height: auto;
+  min-height: 400px;
   background-color: var.$my-blue;
   border: solid 2px #61545e;
   border-radius: 3px;
