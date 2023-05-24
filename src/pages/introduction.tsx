@@ -6,7 +6,7 @@ import image from "../../public/20230103_155348.jpg";
 const testData = new Array(6).fill({
   url: image,
   title: "test title is much longer",
-  subtitle: "this is some text blablabla",
+  subtitle: "this is some text blablabla and even more text",
 });
 
 export default function Introduction() {
