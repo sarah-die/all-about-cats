@@ -43,12 +43,12 @@ main {
 .text-container {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 4rem 4rem 0 4rem;
   @include tablet {
-    padding: 2rem;
+    padding: 3rem 3rem 0 3rem;
   }
   @include mobile {
-    padding: 1rem;
+    padding: 2rem 2rem 0 2rem;
   }
 }
 

@@ -9,7 +9,7 @@ export const IntroductionElement = (props: {
     <div className="introduction-element">
       <figure className="image is-1by1">
         <Image
-          className="is-rounded"
+          className="is-rounded introduction-image"
           src={props.url}
           alt={"this is some image"}
         />

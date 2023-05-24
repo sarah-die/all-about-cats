@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import { IntroductionElement } from "@/components/IntroductionElement/IntroductionElement";
-import {introductionData} from "../../pageData/introductionData";
+import { introductionData } from "../../pageData/introductionData";
 
 export default function Introduction() {
   return (
@@ -10,17 +10,10 @@ export default function Introduction() {
         <title>Wer wir sind</title>
       </Head>
       <div className="text-container">
-        <div className="title">This is some title</div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-          aliquid blanditiis deserunt dolore dolorem est expedita, fugiat,
-          incidunt neque pariatur perferendis quaerat quasi quis veniam
-          voluptatibus? Architecto blanditiis corporis exercitationem
-          perferendis. Aliquam et iusto libero perspiciatis quos reiciendis
-          repudiandae sunt? Consequuntur debitis dignissimos dolor doloremque
-          eaque earum esse eveniet ex explicabo incidunt, iste laudantium maxime
-          mollitia nesciunt nobis optio qui quo repudiandae rerum, vel voluptas
-          voluptatibus.
+        <div className="title">Wer wir sind</div>
+        <div className="subtitle">
+          Wir sind Atlas und Maple. Zwei wilde Kater aus der schönen Hauptstadt.
+          Hier ein paar Fakten über uns.
         </div>
       </div>
       <div className="non-text-container">

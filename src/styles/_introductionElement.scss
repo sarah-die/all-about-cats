@@ -5,7 +5,7 @@
   height: auto;
   min-height: 400px;
   background-color: var.$my-blue;
-  border: solid 2px #61545e;
+  border: solid 2px var.$my-darkGrey;
   border-radius: 3px;
   padding: 20px;
   margin: 0 15px 30px 15px;
@@ -17,6 +17,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .introduction-image {
+    border: solid 2px var.$my-darkGrey;
+  }
+
   //
   //.subtitle {
   //  font-size: 15px;
