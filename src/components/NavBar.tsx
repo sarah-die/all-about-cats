@@ -51,7 +51,7 @@ export const NavBar = () => {
             Wer wir sind
           </a>
           <a className="navbar-item" href={"/funfacts"}>
-            Funfacts über Katzen
+            Funfacts
           </a>
           <a className="navbar-item" href={"/knowledge"}>
             Trivia/ Wissenswertes
