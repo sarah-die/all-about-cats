@@ -4,8 +4,8 @@
   width: 250px;
   height: auto;
   min-height: 400px;
-  background-color: var.$my-blue;
-  border: solid 2px var.$my-darkGrey;
+  background-color: $my-green;
+  border: solid 2px $my-darkgreen;
   border-radius: 3px;
   padding: 20px;
   margin: 0 15px 30px 15px;
@@ -19,7 +19,7 @@
   }
 
   .introduction-image {
-    border: solid 2px var.$my-darkGrey;
+    border: solid 2px $my-darkgreen;
   }
 
   //

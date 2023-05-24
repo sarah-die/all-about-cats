@@ -4,18 +4,17 @@
 //@import "../node_modules/bulma/sass/utilities/initial-variables";
 //@import "../node_modules/bulma/sass/utilities/functions";
 
-$my-orange: #EF8C27;
-$my-orange-invert: findColorInvert($my-orange);
-$my-grey: #C8C3C0;
-$my-grey-invert: findColorInvert($my-grey);
-$my-darkGrey: #61545E;
-$my-dakGrey-invert: findColorInvert($my-darkGrey);
-$my-blue: #8CA3D5;
+$my-blue: #05668d;
 $my-blue-invert: findColorInvert($my-blue);
+$my-lightgreen: #edf6f9;
+$my-lightgreen-invert: findColorInvert($my-lightgreen);
+$my-darkgreen: #006d77;
+$my-darkgreen-invert: findColorInvert($my-darkgreen);
+$my-green: #83c5be;
+$my-green-invert: findColorInvert($my-green);
 
-$my-background: #f3f0ef;
+$my-background: #edf6f9;
 $my-background-invert: findColorInvert($my-background);
-
 
 $secondary: #f8e9d8;
 $secondary-invert: findColorInvert(#f8e9d8);
@@ -25,8 +24,8 @@ $secondary-dark: findDarkColor(#f8e9d8);
 // this adds the is-orange class
 $custom-colors: (
   "orange": (
-    $my-orange,
-    $my-orange-invert,
+    $my-blue,
+    $my-blue-invert,
   ),
   "secondary": (
     $secondary,
@@ -36,5 +35,5 @@ $custom-colors: (
   ),
 );
 
- //change the primary color
-$primary: $my-darkGrey;
+//change the primary color
+$primary: $my-darkgreen;

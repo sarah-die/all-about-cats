@@ -20,7 +20,7 @@
 
   .title-over-picture {
     font-size: 150px;
-    color: var.$my-orange;
+    color: $my-blue;
     @include tablet {
       font-size: 100px;
     }
