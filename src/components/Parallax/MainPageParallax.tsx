@@ -1,7 +1,5 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-const image1 =
-  "https://upload.wikimedia.org/wikipedia/commons/e/e6/Forested_hills_in_Lysekil_in_fog_-_B%26W.jpg";
 // ToDo change speed depending on breakpoint
 const speed = 15;
 
@@ -11,12 +9,12 @@ export const MainPageParallax = () => {
       <div className="parallax">
         <ParallaxBanner
           layers={[
-            { image: image1, speed: speed },
+            { image: "/Homepage/1.jpg", speed: speed },
             {
               speed: -5,
               children: (
                 <div className="title-position-over-picture">
-                  <div className="title-over-picture">Hello World!</div>
+                  <div className="title-over-picture">Hello!</div>
                 </div>
               ),
             },
@@ -39,12 +37,12 @@ export const MainPageParallax = () => {
         </section>
         <ParallaxBanner
           layers={[
-            { image: image1, speed: 15 },
+            { image: "/Homepage/2.jpg", speed: 15 },
             {
               speed: -10,
               children: (
                 <div className="title-position-over-picture">
-                  <div className="title-over-picture">Hello World!</div>
+                  <div className="title-over-picture">Nice to meet you!</div>
                 </div>
               ),
             },
@@ -68,6 +66,20 @@ export const MainPageParallax = () => {
           assumenda atque debitis, dolorum, eligendi eum ex, explicabo fuga hic
           labore minima non odit pariatur sed sint veritatis vitae?
         </section>
+        <ParallaxBanner
+          layers={[
+            { image: "/Homepage/3.jpg", speed: 15 },
+            {
+              speed: -10,
+              children: (
+                <div className="title-position-over-picture">
+                  <div className="title-over-picture">Miaoo!</div>
+                </div>
+              ),
+            },
+          ]}
+          className="banner-height"
+        ></ParallaxBanner>
       </div>
     </ParallaxProvider>
   );
