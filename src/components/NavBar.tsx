@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "next/image";
-import image from "../../public/20221017_1545062.jpg";
 
 /** responsible navbar that changes appearance depending on the window size */
 
@@ -9,7 +8,6 @@ export const NavBar = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
 
   return (
-    // set is-white to change appearance of links and texts
     <nav
       className="navbar has-shadow is-primary"
       role="navigation"
@@ -17,7 +15,7 @@ export const NavBar = () => {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="https://de.wikipedia.org/wiki/Katzen">
-          <Image src={image} alt={"Picture of a cat"} width="30"></Image>
+          <Image src="/Introduction/1.jpg" alt={"Picture of a cat"} width="30" height="30"></Image>
         </a>
 
         <a
