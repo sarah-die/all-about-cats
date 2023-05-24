@@ -57,6 +57,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 3rem;
+  justify-content: center;
   @include tablet {
     padding: 2rem;
   }

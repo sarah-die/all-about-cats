@@ -1,10 +1,11 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import { IntroductionElement } from "@/components/IntroductionElement/IntroductionElement";
+import image from "../../public/20230103_155348.jpg";
 
 const testData = new Array(6).fill({
-  url: "",
-  title: "test title",
+  url: image,
+  title: "test title is much longer",
   subtitle: "this is some text blablabla",
 });
 
@@ -29,17 +30,19 @@ export default function Introduction() {
         </div>
       </div>
       <div className="non-text-container">
-        {testData.map((el, index) => {
-          return (
-            <div key={index}>
-              <IntroductionElement
-                url={el.url}
-                title={el.title}
-                subtitle={el.subtitle}
-              />
-            </div>
-          );
-        })}
+        <div className="columns is-multiline is-gapless is-centered is-vcentered is-mobile">
+          {testData.map((el, index) => {
+            return (
+              <div className="column is-narrow" key={index}>
+                <IntroductionElement
+                  url={el.url}
+                  title={el.title}
+                  subtitle={el.subtitle}
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </Layout>
   );
