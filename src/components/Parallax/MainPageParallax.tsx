@@ -1,7 +1,7 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 // ToDo change speed depending on breakpoint
-const speed = 15;
+const speed = -15;
 
 export const MainPageParallax = () => {
   return (
@@ -11,17 +11,19 @@ export const MainPageParallax = () => {
           layers={[
             { image: "/Homepage/1.jpg", speed: speed },
             {
-              speed: -5,
+              speed: -15,
               children: (
                 <div className="title-position-over-picture">
-                  <div className="title-over-picture">Hello!</div>
+                  <div className="title-over-picture">
+                    Hello! <br /> Nice to meet you!
+                  </div>
                 </div>
               ),
             },
           ]}
           className="banner-height"
         ></ParallaxBanner>
-        <section className="text-container">
+        <section className="text-container mb-6">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           inventore repudiandae. Consectetur dicta earum minima quaerat unde ut
           voluptatibus. Alias autem consectetur deleniti hic laudantium optio
@@ -37,19 +39,19 @@ export const MainPageParallax = () => {
         </section>
         <ParallaxBanner
           layers={[
-            { image: "/Homepage/2.jpg", speed: 15 },
+            { image: "/Homepage/2.jpg", speed: -15 },
             {
               speed: -10,
               children: (
                 <div className="title-position-over-picture">
-                  <div className="title-over-picture">Nice to meet you!</div>
+                  <div className="title-over-picture"></div>
                 </div>
               ),
             },
           ]}
           className="banner-height"
         ></ParallaxBanner>
-        <section className="text-container">
+        <section className="text-container mb-6">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           inventore repudiandae. Consectetur dicta earum minima quaerat unde ut
           voluptatibus. Alias autem consectetur deleniti hic laudantium optio
@@ -68,9 +70,9 @@ export const MainPageParallax = () => {
         </section>
         <ParallaxBanner
           layers={[
-            { image: "/Homepage/3.jpg", speed: 15 },
+            { image: "/Homepage/3.jpg", speed: -15 },
             {
-              speed: -10,
+              speed: -30,
               children: (
                 <div className="title-position-over-picture">
                   <div className="title-over-picture">Miaoo!</div>

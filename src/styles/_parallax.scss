@@ -6,6 +6,12 @@
   .banner-height {
     //height: 300px;
     aspect-ratio: 2 / 1;
+    @include tablet {
+      height: 450px;
+    }
+    @include mobile {
+      height: 550px;
+    }
   }
 
   .title-position-over-picture {
