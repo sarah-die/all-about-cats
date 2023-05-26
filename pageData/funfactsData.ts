@@ -1,0 +1,17 @@
+export const funfacts: string[] = [
+  "Katzen können aufgrund eines Gendefekts nichts Süßes schmecken.",
+  "Katzen verständigen sich untereinander hauptsächlich durch ihre Körpersprache. Das Miauen setzen sie fast nur beim Menschen ein.",
+  "Katzen schlafen bis zu 16 Stunden am Tag.",
+  "Katzen haben in jedem Ohr 32 Muskeln. Das ermöglicht ein drehen, aufstellen und abklappen dieser.",
+  "Alle Katzenbabys kommen blauäugig zur Welt.",
+  "Wissenschaftler konnten nachweisen, dass Katzen, während sie schlafen, dieselben Hirnmuster aufweisen wie Menschen. Daher wird vermutet, dass Katzen träumen können.",
+  "Katzen können eine Geschwindigkeit von bis zu 50kmh erreichen.",
+  "Katzen nehmen selbst im Tiefschlaf 70% der Geräusche und Gerüche um sie herum wahr.",
+  "Nicht nur Haarballen von Ziegen, welche ausgespuckt werden, sondern auch jene von Katzen, nennt man “Bezoar“.",
+  "Die durchschnittliche Lebenserwartung einer Katze liegt bei 14 Jahren.",
+  "Katzenaugen sind nicht in absoluter Dunkelheit, sondern in der Dämmerung, am effektivsten.",
+  "Katzen haben 53 Rückenwirbel. Der Mensch hat 34.",
+  "Ab dem 1. Geburtstag zählt eine Katze als erwachsen. Ab dem 10. als Senior.",
+  "Katzen können aus dem Stand etwa 2 Meter hoch springen.",
+  "Der Nasenabdruck einer Katze ist so einzigartig wie der Fingerabdruck eines Menschen.",
+];
