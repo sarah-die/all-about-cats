@@ -51,9 +51,9 @@ export const NavBar = () => {
           <a className="navbar-item" href={"/funfacts"}>
             Funfacts
           </a>
-          <a className="navbar-item" href={"/knowledge"}>
-            Trivia/ Wissenswertes
-          </a>
+          {/*<a className="navbar-item" href={"/knowledge"}>*/}
+          {/*  Trivia/ Wissenswertes*/}
+          {/*</a>*/}
           <a className="navbar-item" href={"/gallery"}>
             Galerie
           </a>
