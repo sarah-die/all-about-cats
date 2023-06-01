@@ -1,3 +1,4 @@
+// eslint-disable react/no-unescaped-entities
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import { SquareSlider } from "@/components/SquareSlider/SquareSlider";
