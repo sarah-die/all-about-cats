@@ -9,7 +9,7 @@ export const MainPageParallax = () => {
       <div className="parallax">
         <ParallaxBanner
           layers={[
-            { image: "/Homepage/1.jpg", speed: speed },
+            { image: "./Homepage/1.jpg", speed: speed },
             {
               speed: -15,
               children: (
@@ -39,7 +39,7 @@ export const MainPageParallax = () => {
         </section>
         <ParallaxBanner
           layers={[
-            { image: "/Homepage/2.jpg", speed: -15 },
+            { image: "./Homepage/2.jpg", speed: -15 },
             {
               speed: -10,
               children: (
@@ -70,7 +70,7 @@ export const MainPageParallax = () => {
         </section>
         <ParallaxBanner
           layers={[
-            { image: "/Homepage/3.jpg", speed: -15 },
+            { image: "./Homepage/3.jpg", speed: -15 },
             {
               speed: -30,
               children: (
