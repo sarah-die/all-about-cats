@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 
 export const IntroductionElement = (props: {
-  url: string;
+  url: StaticImageData;
   title: string;
   subtitle: string;
 }) => {
