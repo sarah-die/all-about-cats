@@ -42,19 +42,19 @@ export const NavBar = () => {
         }}
       >
         <div className="navbar-end">
-          <a className="navbar-item" href={"/all-about-cats/"}>
+          <a className="navbar-item" href={"/"}>
             Home
           </a>
-          <a className="navbar-item" href={"/all-about-cats/introduction"}>
+          <a className="navbar-item" href={"/introduction"}>
             Wer wir sind
           </a>
-          <a className="navbar-item" href={"/all-about-cats/funfacts"}>
+          <a className="navbar-item" href={"/funfacts"}>
             Funfacts
           </a>
           {/*<a className="navbar-item" href={"/knowledge"}>*/}
           {/*  Trivia/ Wissenswertes*/}
           {/*</a>*/}
-          <a className="navbar-item" href={"/all-about-cats/gallery"}>
+          <a className="navbar-item" href={"/gallery"}>
             Galerie
           </a>
         </div>
