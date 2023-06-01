@@ -59,7 +59,7 @@ export const introductionData: Introduction[] = [
   },
   {
     url: image12,
-    title: "Spezial- fähigkeit",
+    title: "Spezialfähigkeit",
     subtitle: "Atlas: Kringelschwanz, Maple: Hochsprung",
   },
   {

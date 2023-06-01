@@ -48,7 +48,7 @@ export const SquareSlider = (props: {
               <SwiperSlide className="swiper-wrapper" key={index}>
                 <SquareSliderElement
                   url={
-                    `/Gallery/${props.urlPrefix}/${props.urlPrefix}_${
+                    `./Gallery/${props.urlPrefix}/${props.urlPrefix}_${
                       index + 1
                     }.jpg`
                   }
