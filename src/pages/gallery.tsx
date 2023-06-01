@@ -1,4 +1,3 @@
-// eslint-disable
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import { SquareSlider } from "@/components/SquareSlider/SquareSlider";
@@ -29,7 +28,7 @@ export default function Gallery() {
       <SquareSlider urlPrefix={"month6to12"} numberOfImages={24} />
       <div className="text-container">
         <div className="subtitle">
-          Endlich erwachsen - mit 1 Jahr geht's rund! März 2023 bis September
+          Endlich erwachsen - mit 1 Jahr geht&apos;s rund! März 2023 bis September
           2023.
         </div>
       </div>
