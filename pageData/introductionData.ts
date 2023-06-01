@@ -14,7 +14,8 @@ import image13 from "../public/Introduction/13.jpg";
 import image14 from "../public/Introduction/14.jpg";
 import image15 from "../public/Introduction/15.jpg";
 import image16 from "../public/Introduction/16.jpg";
-export type Introduction = { url: string; title: string; subtitle: string };
+import {StaticImageData} from "next/image";
+export type Introduction = { url: StaticImageData; title: string; subtitle: string };
 export const introductionData: Introduction[] = [
   {
     url: image1,
