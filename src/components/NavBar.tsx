@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 /** responsible navbar that changes appearance depending on the window size */
 
@@ -42,21 +43,21 @@ export const NavBar = () => {
         }}
       >
         <div className="navbar-end">
-          <a className="navbar-item" href={"/"}>
+          <Link className="navbar-item" href={"/"}>
             Home
-          </a>
-          <a className="navbar-item" href={"/introduction"}>
+          </Link>
+          <Link className="navbar-item" href={"/introduction"}>
             Wer wir sind
-          </a>
-          <a className="navbar-item" href={"/funfacts"}>
+          </Link>
+          <Link className="navbar-item" href={"/funfacts"}>
             Funfacts
-          </a>
-          {/*<a className="navbar-item" href={"/knowledge"}>*/}
+          </Link>
+          {/*<Link className="navbar-item" href={"/knowledge"}>*/}
           {/*  Trivia/ Wissenswertes*/}
-          {/*</a>*/}
-          <a className="navbar-item" href={"/gallery"}>
+          {/*</Link>*/}
+          <Link className="navbar-item" href={"/gallery"}>
             Galerie
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
