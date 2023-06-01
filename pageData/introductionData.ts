@@ -1,20 +1,19 @@
-// ToDo ohne public folder dafür mit ./
-import image1 from "./Introduction/1.jpg";
-import image2 from "./Introduction/2.jpg";
-import image3 from "./Introduction/3.jpg";
-import image4 from "./Introduction/4.jpg";
-import image5 from "./Introduction/5.jpg";
-import image6 from "./Introduction/6.jpg";
-import image7 from "./Introduction/7.jpg";
-import image8 from "./Introduction/8.jpg";
-import image9 from "./Introduction/9.jpg";
-import image10 from "./Introduction/10.jpg";
-import image11 from "./Introduction/11.jpg";
-import image12 from "./Introduction/12.jpg";
-import image13 from "./Introduction/13.jpg";
-import image14 from "./Introduction/14.jpg";
-import image15 from "./Introduction/15.jpg";
-import image16 from "./Introduction/16.jpg";
+import image1 from "../public/Introduction/1.jpg";
+import image2 from "../public/Introduction/2.jpg";
+import image3 from "../public/Introduction/3.jpg";
+import image4 from "../public/Introduction/4.jpg";
+import image5 from "../public/Introduction/5.jpg";
+import image6 from "../public/Introduction/6.jpg";
+import image7 from "../public/Introduction/7.jpg";
+import image8 from "../public/Introduction/8.jpg";
+import image9 from "../public/Introduction/9.jpg";
+import image10 from "../public/Introduction/10.jpg";
+import image11 from "../public/Introduction/11.jpg";
+import image12 from "../public/Introduction/12.jpg";
+import image13 from "../public/Introduction/13.jpg";
+import image14 from "../public/Introduction/14.jpg";
+import image15 from "../public/Introduction/15.jpg";
+import image16 from "../public/Introduction/16.jpg";
 import {StaticImageData} from "next/image";
 export type Introduction = { url: StaticImageData; title: string; subtitle: string };
 export const introductionData: Introduction[] = [
