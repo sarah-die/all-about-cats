@@ -22,7 +22,7 @@ export default function Funfacts() {
             return (
               <div className="column" key={index}>
                 <EffectFlipCard
-                  url={`./Funfacts/${index + 1}.jpg`}
+                  url={`/Funfacts/${index + 1}.jpg`}
                   funfact={el}
                 />
               </div>
