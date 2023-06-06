@@ -16,7 +16,7 @@ export const NavBar = () => {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="https://de.wikipedia.org/wiki/Katzen">
-          <Image src="/Introduction/1.jpg" alt={"Picture of a cat"} width="30" height="30"></Image>
+          <Image src="./Introduction/1.jpg" alt={"Picture of a cat"} width="30" height="30"></Image>
         </a>
 
         <a
